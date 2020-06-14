@@ -1,5 +1,5 @@
-use super::schema::ledger;
-use diesel::prelude::*;
+use super::db_schema::*;
+use diesel::{Queryable, Insertable};
 
 #[derive(Queryable)]
 pub struct Ledger {
