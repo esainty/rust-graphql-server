@@ -22,3 +22,7 @@ Cargo.lock
 # Database Junk
 *.db-journal
 *.ods
+
+# Git junk
+.gitkeep
+.~*
